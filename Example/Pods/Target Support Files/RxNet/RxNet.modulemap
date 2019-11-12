@@ -1,0 +1,6 @@
+framework module RxNet {
+  umbrella header "RxNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

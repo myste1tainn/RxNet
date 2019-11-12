@@ -1,0 +1,6 @@
+framework module Pods_RxNet_Tests {
+  umbrella header "Pods-RxNet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
