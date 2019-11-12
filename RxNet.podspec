@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'myste1tainn' => 'a.keereena@gmail.com' }
   s.source           = { :git => 'https://github.com/myste1tainn/RxNet.git', :tag => s.version.to_s }
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
   s.ios.deployment_target = '8.0'
   s.source_files = 'RxNet/Classes/**/*'
-  s.dependency 'RxSwift', '~> 5.0'
+  s.dependency 'RxCocoa', '~> 5.0'
 end

@@ -28,7 +28,7 @@ public enum Stub {
 /// The different stubbing modes.
 public enum StubBehavior {
     /// Stubs and delays the response for a specified amount of time.
-    case delayed(time: TimeInterval, stub: Stub)
+    case delayed(_ time: RxTimeInterval, stub: Stub)
     
     /// Stubs the response without delaying it.
     case immediate(stub: Stub)
